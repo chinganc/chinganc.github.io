@@ -1,9 +1,42 @@
+section {
+    margin-bottom: -1rem;
+    margin-top: 0rem;
+}
+
 p.pub {
     padding-bottom: 0rem;
     margin-bottom: 0rem;
 }
 
 h3.pub {
-    padding-top: 2rem;
+    padding-top: 1.5rem;
     font-size: 24px;
+}
+
+a {
+    color: #0d7094;
+}
+
+/* a:hover {
+    color: #42f57b;
+} */
+
+b.pubstitle {
+    color: #2591b8;
+}
+
+.pubsnote{
+    color: #de4269;
+}
+
+.navbar {
+    background-color: #d6f0f1;
+}
+
+.bg-color-a {
+    background-color: #f7f7f7;
+}
+
+.bg-color-b {
+    background-color: #ffffff;
 }
