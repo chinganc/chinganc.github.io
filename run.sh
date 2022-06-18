@@ -1,4 +1,4 @@
-conda activate flask
+# conda activate flask
 cd src/cac/data/pubs/
 git pull
 cd -
