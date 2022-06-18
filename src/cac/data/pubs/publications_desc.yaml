@@ -30,7 +30,7 @@ mukadam2017approximately:
   pdf_link: https://arxiv.org/pdf/1702.07335.pdf
 cheng2017variational:
   pdf_link: https://arxiv.org/pdf/1711.10127.pdf
-molnar2017optical:
+molnar2018optical:
   pdf_file: molnar2017optical.pdf
 cheng2018convergence:
   pdf_link: https://arxiv.org/pdf/1801.07292.pdf
@@ -59,11 +59,11 @@ kang2019singularity:
   pdf_link: https://journals.sagepub.com/doi/pdf/10.1177/1729881419858910
 li2019stable:
   pdf_link: https://arxiv.org/pdf/1903.12605.pdf
-pan2019imitation:
+pan2020imitation:
   pdf_file: pan2019imitation.pdf
-mukadam2019riemannian:
+mukadam2020riemannian:
   pdf_link: https://arxiv.org/pdf/1910.02646.pdf
-cheng2019trajectory:
+cheng2020trajectory:
   pdf_link: https://arxiv.org/pdf/1908.03263.pdf
 wingo2020extending:
   pdf_file: wingo2020extending.pdf
