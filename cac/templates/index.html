@@ -1,0 +1,49 @@
+{% extends "base.html" %}{% block content %}
+<div class="container py-4">
+  <div class="row">
+      <div class="ml-auto col-4 col-md-3 offset-md-1 col-lg-2 mb-3">
+        <p><img class="img img-fluid" style="width: 100%; height: auto" src="{{ url_for('static', filename='images/ching-an-cheng.jpg') }}" alt=""/></p>
+        <p><a href="/docs/ching-an-cheng-cv.pdf" target="_blank"><i class="fa fa-file"></i> CV</a></p>
+        <p><a href="https://scholar.google.com/citations?user=bMZFLZ_V4goC&hl=en"><i class="ai ai-google-scholar-square"></i> Google Scholar</a></p>
+      </div>
+      <div class="mr-auto col-12 col-md-8 col-lg-8 mb-3 text-justify">
+        {% include "bio.html" %}
+      </div>
+  </div>
+</div>
+<section class="bg-color-a">
+  <div class="container py-0 mb-2">
+      <div class="ml-auto mr-auto col-12 col-md-10 col-lg-10">
+        <h3 class="pub">Preprints</h3>
+        {% include "preprints.html" %}
+        </br>
+      </div>
+  </div>
+</section><section class="bg-color-b">
+  <div class="container py-0 mb-2">
+    <div class="ml-auto mr-auto col-12 col-md-10 col-lg-10">
+      <h3 class="pub">Journal/Conference Publications</h3>
+      {% include "publications.html" %}
+      </br>
+    </div>
+  </div>
+</section>
+<section class="bg-color-a">
+  <div class="container py-0 mb-2">
+    <div class="ml-auto mr-auto col-12 col-md-10 col-lg-10">
+      <h3 class="pub">Workshop Papers</h3>
+      {% include "workshops.html" %}
+      </br>
+    </div>
+  </div>
+</section>
+<section class="bg-color-b">
+  <div class="container py-0 mb-2">
+    <div class="ml-auto mr-auto col-12 col-md-10 col-lg-10">
+      <h3 class="pub">Theses</h3>
+      {% include "theses.html" %}
+      </br>
+    </div>
+  </div>
+</section>
+{% endblock content %}

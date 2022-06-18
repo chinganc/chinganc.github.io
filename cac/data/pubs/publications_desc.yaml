@@ -1,0 +1,96 @@
+cheng2010motor:
+  pdf_file: cheng2010motor.pdf
+liu2011novel:
+  pdf_file: liu2011novel.pdf
+huang2012develop:
+  pdf_file: huang2012development.pdf
+huang2012design:
+  pdf_file: huang2012design.pdf
+cheng2013bayesian:
+  pdf_file: cheng2013bayesian.pdf
+huang2013self:
+  pdf_file: huang2013self.pdf
+cheng2013identification:
+  pdf_file: cheng2013identification.pdf
+huang2015development:
+  pdf_file: huang2015development.pdf
+huang2015efficient:
+  pdf_file: huang2015efficient.pdf
+chang2015humanoid:
+  pdf_file: chang2015humanoid.pdf
+cheng2016learning:
+  pdf_file: cheng2016learning.pdf
+lo2016virtual:
+  pdf_file: lo2016virtual.pdf
+cheng2016learn:
+  pdf_file: cheng2016learn.pdf
+cheng2016incremental:
+  pdf_link: https://proceedings.neurips.cc/paper/2016/file/2596a54cdbb555cfd09cd5d991da0f55-Paper.pdf
+mukadam2017approximately:
+  pdf_link: https://arxiv.org/pdf/1702.07335.pdf
+cheng2017variational:
+  pdf_link: https://arxiv.org/pdf/1711.10127.pdf
+molnar2017optical:
+  pdf_file: molnar2017optical.pdf
+cheng2018convergence:
+  pdf_link: https://arxiv.org/pdf/1801.07292.pdf
+  note: Best Paper Award
+pan2018agile:
+  pdf_link: https://arxiv.org/pdf/1709.07174.pdf
+  note: Finalist to the Best Systems Paper Award
+cheng2018fast:
+  pdf_link: https://arxiv.org/pdf/1805.10413.pdf
+  note: Selected for Plenary Presentation (8%)
+salimbeni2018orthogonally:
+  pdf_link: https://arxiv.org/pdf/1809.08820.pdf
+cheng2018rmpflow:
+  pdf_link: https://arxiv.org/pdf/1811.07049.pdf
+shaban2019truncated:
+  pdf_link: https://arxiv.org/pdf/1810.10667.pdf
+cheng2019accelerating:
+  pdf_link: https://arxiv.org/pdf/1806.04642.pdf
+cheng2019predictor:
+  pdf_link: https://arxiv.org/pdf/1810.06509.pdf
+  note: Selected for Long Talk (5%)
+wagener2019online:
+  pdf_link: https://arxiv.org/pdf/1902.08967.pdf
+  note: Best Student Paper Award & Finalist to the Best Systems Paper Award
+kang2019singularity:
+  pdf_link: https://journals.sagepub.com/doi/pdf/10.1177/1729881419858910
+li2019stable:
+  pdf_link: https://arxiv.org/pdf/1903.12605.pdf
+pan2019imitation:
+  pdf_file: pan2019imitation.pdf
+mukadam2019riemannian:
+  pdf_link: https://arxiv.org/pdf/1910.02646.pdf
+cheng2019trajectory:
+  pdf_link: https://arxiv.org/pdf/1908.03263.pdf
+wingo2020extending:
+  pdf_file: wingo2020extending.pdf
+cheng2020online:
+  pdf_link: https://arxiv.org/pdf/1902.07286.pdf
+cheng2020reduction:
+  pdf_link: https://arxiv.org/pdf/1911.05873.pdf
+rahimi2020intra:
+  pdf_link: https://arxiv.org/pdf/2003.06820.pdf
+cheng2020policy:
+  pdf_link: https://proceedings.neurips.cc/paper/2020/file/3c56fe2f24038c4d22b9eb0aca78f590-Paper.pdf
+  note: Selected for Spotlight Presentation (3%)
+cheng2021rmpflow:
+  pdf_link: https://arxiv.org/pdf/2007.14256.pdf
+yan2021explaining:
+  pdf_link: https://arxiv.org/pdf/2007.02520.pdf
+li2021rmp2:
+  pdf_link: https://arxiv.org/pdf/2103.05922.pdf
+zanette2021cautiously:
+  pdf_link: https://arxiv.org/pdf/2103.12923.pdf
+wagener2021safe:
+  pdf_link: https://arxiv.org/pdf/2106.09110.pdf
+cheng2021heuristic:
+  pdf_link: https://arxiv.org/pdf/2106.02757.pdf
+xie2021bellman:
+  pdf_link: https://arxiv.org/pdf/2106.06926.pdf
+  note: Selected for Oral Presentation (<1%)
+cheng2022adversarially:
+  pdf_link: https://arxiv.org/pdf/2202.02446.pdf
+  note: Selected for Long Presentation (2%)

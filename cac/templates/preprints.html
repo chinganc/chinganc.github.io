@@ -1,0 +1,25 @@
+<ul>
+  {% for year, pub_list in preprints.items() %}
+    {% for pub in pub_list %}
+      <li>
+        <div>
+          <p class="pub">
+            <b class="pubstitle">{{ pub.title }}</b>
+            {% if pub.pdf_link %}
+              &nbsp;<a href="{{ pub.pdf_link }}" target="_blank"><i class="fa fa-file"></i></a>
+            {% endif %}
+            {% if pub.pdf_file %}
+              &nbsp;<a href="/docs/{{ pub.pdf_file }}" target="_blank"><i class="fa fa-file"></i></a>
+            {% endif %}
+            </br>
+            {% if pub.note %}
+              <span class="pubsnote">{{ pub.note }}</span></br>
+            {% endif %}
+            <em>{{pub.venue}}, {{pub.year}}</em>
+          </p>
+          {{pub.authors}}
+        </div>
+      </li>
+    {% endfor %}
+  {% endfor %}
+</ul>
