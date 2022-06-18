@@ -9,9 +9,16 @@
    ```bash
    # install deps
    cd cac-website
+   pip install setuptools==57.5.0
    pip install -e .[dev]
    ```
-3. Run local dynamic site, which can be accessed at http://localhost:5000.
+3. Clone the CV repo
+   ```
+   cd src/cac/data/
+   git clone https://git.overleaf.com/62a9465ab1a0ec57bf651ac9
+   mv 62a9465ab1a0ec57bf651ac9 pubs
+   ```
+4. Run local dynamic site, which can be accessed at http://localhost:5000.
    ```bash
    FLASK_APP=cac flask run
    ```
@@ -20,14 +27,17 @@
 
 1. Generate static site for deployment using [Frozen-Flask](https://pythonhosted.org/Frozen-Flask/).
 
-```bash
-python freeze.py -d www
 ```
+bash run.sh
+```
+
+<!-- ```bash
+python freeze.py -d www
+``` -->
 
 2. (Optional) View the static site locally. The website is accessible at http://127.0.0.1:8000/ on your browser.
 
 ```bash
-cd www
 # set up a local python server
 python -m http.server 8000 --bind 127.0.0.1
 ```
@@ -56,5 +66,3 @@ python -m http.server 8000 --bind 127.0.0.1
     - Description yaml (for adding `pdf_link`, `pdf_file`, or `note`): `cac/data/pubs/workshops_desc.yaml`
     - PDF file (if applicable): `cac/docs/[pdf_file]`. Remeber to add `pdf_file` in the description yaml file.
     - Html: `cac/templates/workshops.html`
-
-
