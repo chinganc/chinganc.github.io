@@ -6,10 +6,13 @@
           <p class="pub">
             <b class="pubstitle">{{ pub.title }}</b>
             {% if pub.pdf_link %}
-              &nbsp;<a href="{{ pub.pdf_link }}" target="_blank"><i class="fa fa-file"></i></a>
+              &nbsp;<a href="{{ pub.pdf_link }}" target="_blank"><i class="fa fa-paperclip"></i></a>
             {% endif %}
             {% if pub.pdf_file %}
-              &nbsp;<a href="/docs/{{ pub.pdf_file }}" target="_blank"><i class="fa fa-file"></i></a>
+              &nbsp;<a href="/docs/{{ pub.pdf_file }}" target="_blank"><i class="fa fa-paperclip"></i></a>
+            {% endif %}
+            {% if pub.website %}
+              &nbsp;<a href="{{ pub.website }}" target="_blank"><i class="far fa-window-maximize"></i></a>
             {% endif %}
             </br>
             {% if pub.note %}
