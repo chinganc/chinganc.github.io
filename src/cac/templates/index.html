@@ -11,39 +11,20 @@
       </div>
   </div>
 </div>
+
+{% for category, pubs, color in publications %}
+{% if color == 0 %}
 <section class="bg-color-a">
+{% else %}
+<section class="bg-color-b">
+{% endif %}
   <div class="container py-0 mb-2">
       <div class="ml-auto mr-auto col-12 col-md-10 col-lg-10">
-        <h3 class="pub">Preprints</h3>
-        {% include "preprints.html" %}
+        <h3 class="pub">{{ category }}</h3>
+        {% include "publications.html" %}
         </br>
       </div>
   </div>
-</section><section class="bg-color-b">
-  <div class="container py-0 mb-2">
-    <div class="ml-auto mr-auto col-12 col-md-10 col-lg-10">
-      <h3 class="pub">Journal/Conference Publications</h3>
-      {% include "publications.html" %}
-      </br>
-    </div>
-  </div>
 </section>
-<section class="bg-color-a">
-  <div class="container py-0 mb-2">
-    <div class="ml-auto mr-auto col-12 col-md-10 col-lg-10">
-      <h3 class="pub">Workshop Papers</h3>
-      {% include "workshops.html" %}
-      </br>
-    </div>
-  </div>
-</section>
-<section class="bg-color-b">
-  <div class="container py-0 mb-2">
-    <div class="ml-auto mr-auto col-12 col-md-10 col-lg-10">
-      <h3 class="pub">Theses</h3>
-      {% include "theses.html" %}
-      </br>
-    </div>
-  </div>
-</section>
+{% endfor %}
 {% endblock content %}
