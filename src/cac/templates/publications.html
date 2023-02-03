@@ -15,6 +15,9 @@
           {% if pub.website %}
             &nbsp;<a href="{{ pub.website }}" target="_blank"><i class="far fa-window-maximize"></i></a>
           {% endif %}
+          {% if pub.code %}
+            &nbsp;<a href="{{ pub.code }}" target="_blank"><i class="fab fa-github"></i></a>
+          {% endif %}
           </br>
           {% if pub.note %}
             <span class="pubsnote">{{ pub.note }}</span></br>

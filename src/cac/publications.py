@@ -153,6 +153,7 @@ def list_publications(bib_filename, yaml_filename=None, group_years=None):
             "pdf_link": pub_overwrite["pdf_link"] if "pdf_link" in pub_overwrite else "",
             "pdf_file": pub_overwrite["pdf_file"] if "pdf_file" in pub_overwrite else "",
             "website": pub_overwrite["website"] if "website" in pub_overwrite else "",
+            "code": pub_overwrite["code"] if "code" in pub_overwrite else "",
             "note": pub_overwrite["note"] if "note" in pub_overwrite else "",
         }
 
