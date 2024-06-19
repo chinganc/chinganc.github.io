@@ -14,15 +14,15 @@ h3.pub {
 }
 
 a {
-    color: #0d7094;
+    color: #598055;
 }
 
-/* a:hover {
-    color: #42f57b;
-} */
+a:hover {
+    color: #598055;
+}
 
 b.pubstitle {
-    color: #2591b8;
+    color: #598055;
 }
 
 .pubsnote{
@@ -30,7 +30,7 @@ b.pubstitle {
 }
 
 .navbar {
-    background-color: #d6f0f1;
+    background-color: #8baa98;
 }
 
 .bg-color-a {
